@@ -219,7 +219,38 @@ button {
         left: 20px;
     }
 }
+.box1-main-m{
+  width: 100%;
+  border-radius: 25px;
+  height: 100px;
+  background-color: #ccbcf5;
+}
+.options-mobile{
+  display: none;
+}
+.other-boxes-m{
+  display: flex;
+  gap: 10%;
+.box2-main-m{
+  width: 50%;
+  border-radius: 25px;
+  height: 100px;
+  background-color: #2bd988;
+}
+
+}
 @media (max-width: 768px) {
+  .options{
+    display: none;
+  }
+  .options-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 20%;
+    width: 80%;
+  }
   .header-left {
     display: none;
   }
