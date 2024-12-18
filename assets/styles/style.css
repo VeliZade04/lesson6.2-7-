@@ -410,7 +410,19 @@ button {
   justify-content: center;
   align-items: center;
 }
+.about-company-mob{
+  display: none;
+}
 @media (max-width: 768px) {
+  .about-company-mob{
+    
+    img{
+      width: 100px;
+      height: 100px;
+    }
+    display: flex;
+    flex-direction: column;
+  }
   .right-nav-mob{
     display: flex;
   }
